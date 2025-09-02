@@ -65,3 +65,30 @@ VITE_API_URL=http://localhost:3000   # Backend server URL
 npm run build
 ```
 ---
+## 📖 Usage Flow
+
+1. User visits **nimble.io** and logs in/signup through the **frontend auth UI**.  
+2. The app fetches and displays user details via the **User Service** backend.  
+3. In the **Chat IDE**, users interact with Gemini:
+   - Type prompts or code-related queries  
+   - Get enhanced/generated code from backend  
+   - Run/compile in a **StackBlitz container** embedded in the UI  
+   - Continue editing and iterating directly in the browser  
+
+---
+
+## 🌐 Vision
+
+The frontend of nimble.io makes the **AI + Cloud IDE** experience accessible to anyone, anywhere:
+
+- A clean, intuitive UI built with React + Vite  
+- Seamless integration with backend services  
+- Real-time AI-assisted coding in your browser  
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify, and distribute.
+
+---
